@@ -13,6 +13,16 @@ export default async function Home() {
           RSC example
         </Link>
       </li>
+      <li>
+        <Link href="/cc/use-fragment/1" className="underline">
+          <pre className="inline">useFragment</pre> example (single usage)
+        </Link>
+      </li>
+      <li>
+        <Link href="/cc/use-fragment/24" className="underline">
+          <pre className="inline">useFragment</pre> example (many usages)
+        </Link>
+      </li>
     </ul>
   );
 }
